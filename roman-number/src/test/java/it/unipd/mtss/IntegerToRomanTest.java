@@ -114,4 +114,10 @@ public class IntegerToRomanTest {
     {
         IntegerToRoman.convert(0);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void upperOutOfBounds()
+    {
+        IntegerToRoman.convert(1001);
+    }
 }
