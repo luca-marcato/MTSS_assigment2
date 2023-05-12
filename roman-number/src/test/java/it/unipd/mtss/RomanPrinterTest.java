@@ -28,7 +28,7 @@ public class RomanPrinterTest {
     }
 
     @Test
-    public void carattere_I() {
+    public void carattere_V() {
         try (
                 MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
             utilities.when(() -> IntegerToRoman.convert(5))
