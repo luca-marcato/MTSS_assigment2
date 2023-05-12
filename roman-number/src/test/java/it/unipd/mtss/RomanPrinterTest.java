@@ -26,4 +26,24 @@ public class RomanPrinterTest {
 
         }
     }
+
+    @Test
+    public void carattere_I() {
+        try (
+                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+            utilities.when(() -> IntegerToRoman.convert(5))
+                    .thenReturn("V");
+
+            String result = RomanPrinter.print(5);
+
+            assertEquals(result,
+                    "__      __ \n" +
+                            "\\ \\    / / \n" +
+                            " \\ \\  / /  \n" +
+                            "  \\ \\/ /   \n" +
+                            "   \\  /    \n" +
+                            "    \\/     ");
+
+        }
+    }
 }
