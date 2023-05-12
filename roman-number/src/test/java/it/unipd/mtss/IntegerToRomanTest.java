@@ -10,8 +10,10 @@ public class IntegerToRomanTest {
     @Test
     public void primiTreNumeri()
     {
-        String result = IntegerToRoman.convert(1);
+        String result1 = IntegerToRoman.convert(1);
+        String result3 = IntegerToRoman.convert(3);
 
-        assertEquals(result, 'I');
+        assertEquals(result1, "I");
+        assertEquals(result3, "III");
     }
 }
