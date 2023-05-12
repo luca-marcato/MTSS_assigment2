@@ -12,11 +12,11 @@ public class IntegerToRoman {
         result += "C";
         number -= 100;
     }
-    while (number >= 90) {
+    if (number >= 90) {
         result += "XC";
         number -= 90;
     }
-    while (number >= 50) {
+    if (number >= 50) {
         result += "L";
         number -= 50;
     }
