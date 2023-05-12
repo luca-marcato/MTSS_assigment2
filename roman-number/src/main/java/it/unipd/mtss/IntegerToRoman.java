@@ -11,7 +11,7 @@ public class IntegerToRoman {
     while (number >= 1000) {
         result += "M";
         number -= 1000;        }
-    while (number >= 900) {
+    if (number >= 900) {
         result += "CM";
         number -= 900;
     }

@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire8828206404966023004\surefirebooter5925284324414608865.jar C:\Users\marca\AppData\Local\Temp\surefire8828206404966023004 2023-05-12T10-16-53_633-jvmRun1 surefire2063849632337919766tmp surefire_05179394965035652705tmp"/>
+    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire4866330087142149478\surefirebooter13192511916388963383.jar C:\Users\marca\AppData\Local\Temp\surefire4866330087142149478 2023-05-12T10-17-26_396-jvmRun1 surefire1926912639622962487tmp surefire_03636052578035244761tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\test-classes;C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\classes;C:\Users\marca\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\marca\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire8828206404966023004\surefirebooter5925284324414608865.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire4866330087142149478\surefirebooter13192511916388963383.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>
@@ -59,7 +59,7 @@
   <testcase name="primiCentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiDieciNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiMilleNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiCinquecentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="primiCinquecentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiSeiNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiTreNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiCinquantaNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
