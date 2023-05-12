@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.IntegerToRomanTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in it.unipd.mtss.IntegerToRomanTest
-primiCentoNumeri(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[LXL]> but was:<[XC]>
-	at it.unipd.mtss.IntegerToRomanTest.primiCentoNumeri(IntegerToRomanTest.java:79)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in it.unipd.mtss.IntegerToRomanTest
