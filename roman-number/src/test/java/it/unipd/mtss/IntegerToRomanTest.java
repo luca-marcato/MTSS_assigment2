@@ -80,4 +80,18 @@ public class IntegerToRomanTest {
         assertEquals(result99, "XCIX");
         assertEquals(result100, "C");
     }
+
+    @Test
+    public void primiCinquecentoNumeri()
+    {
+        String result101 = IntegerToRoman.convert(101);
+        String result400 = IntegerToRoman.convert(400);
+        String result499 = IntegerToRoman.convert(499);
+        String result500 = IntegerToRoman.convert(500);
+
+        assertEquals(result101, "CI");
+        assertEquals(result400, "CD");
+        assertEquals(result499, "CDXCIX");
+        assertEquals(result500, "D");
+    }
 }
