@@ -84,4 +84,23 @@ public class RomanPrinterTest {
                             "|______| ");
         }
     }
+
+    @Test
+    public void carattere_C() {
+        try (
+                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+            utilities.when(() -> IntegerToRoman.convert(100))
+                    .thenReturn("C");
+
+            String result = RomanPrinter.print(100);
+
+            assertEquals(result,
+                    "  _____  \n" +
+                            " / ____| \n" +
+                            "| |      \n" +
+                            "| |      \n" +
+                            "| |____  \n" +
+                            " \\_____| ");
+        }
+    }
 }

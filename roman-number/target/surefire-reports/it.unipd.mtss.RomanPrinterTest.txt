@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.RomanPrinterTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 s - in it.unipd.mtss.RomanPrinterTest
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.812 s <<< FAILURE! - in it.unipd.mtss.RomanPrinterTest
+carattere_C(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0.804 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[
+
+
+
+
+]> but was:<[  _____  
+ / ____| 
+| |      
+| |      
+| |____  
+ \_____| ]>
+	at it.unipd.mtss.RomanPrinterTest.carattere_C(RomanPrinterTest.java:97)
+
