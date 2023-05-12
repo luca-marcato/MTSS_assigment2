@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.002" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.001" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire/surefirebooter11998807881865306894.jar /home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire 2023-05-12T11-04-07_660-jvmRun1 surefire4864202303856268558tmp surefire_015487979981646243225tmp"/>
+    <property name="sun.java.command" value="/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire/surefirebooter7179291319418613275.jar /home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire 2023-05-12T11-07-16_712-jvmRun1 surefire6363778118754062474tmp surefire_06477417222798426900tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/test-classes:/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/classes:/home/mircea/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mircea/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mircea/.m2/repository/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar:/home/mircea/.m2/repository/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.jar:/home/mircea/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar:/home/mircea/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire/surefirebooter11998807881865306894.jar"/>
+    <property name="surefire.real.class.path" value="/home/mircea/Desktop/universita/terzoAnno/MTSS/ass2/MTSS_assigment2/roman-number/target/surefire/surefirebooter7179291319418613275.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="mircea"/>
