@@ -11,7 +11,7 @@ public class RomanPrinterTest {
     public void carattere_I() {
         try (
                 MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
-            utilities.when(() -> IntegerToRoman.convert(2))
+            utilities.when(() -> IntegerToRoman.convert(1))
                     .thenReturn("I");
 
             String result = RomanPrinter.print(1);
@@ -22,7 +22,7 @@ public class RomanPrinterTest {
                             "  | |   \n" +
                             "  | |   \n" +
                             " _| |_  \n" +
-                            "|_____| \n");
+                            "|_____| ");
 
         }
     }
