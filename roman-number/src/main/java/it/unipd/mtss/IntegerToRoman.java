@@ -8,6 +8,13 @@ package it.unipd.mtss;
 public class IntegerToRoman {
   public static String convert(int number){
     String result = "";
+    while (number >= 1000) {
+        result += "M";
+        number -= 1000;        }
+    while (number >= 900) {
+        result += "CM";
+        number -= 900;
+    }
     if (number >= 500) {
         result += "D";
         number -= 500;

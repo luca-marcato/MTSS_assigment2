@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.IntegerToRomanTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in it.unipd.mtss.IntegerToRomanTest
-primiMilleNumeri(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0.002 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[DCD]> but was:<[CM]>
-	at it.unipd.mtss.IntegerToRomanTest.primiMilleNumeri(IntegerToRomanTest.java:107)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in it.unipd.mtss.IntegerToRomanTest

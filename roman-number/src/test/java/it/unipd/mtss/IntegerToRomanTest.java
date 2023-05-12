@@ -105,7 +105,7 @@ public class IntegerToRomanTest {
 
         assertEquals(result501, "DI");
         assertEquals(result900, "CM");
-        assertEquals(result999, "CMCDXCIX");
+        assertEquals(result999, "CMXCIX");
         assertEquals(result1000, "M");
     }
 }
