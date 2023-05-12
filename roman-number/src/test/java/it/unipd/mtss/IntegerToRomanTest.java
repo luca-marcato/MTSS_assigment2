@@ -57,7 +57,7 @@ public class IntegerToRomanTest {
     public void primiCinquantaNumeri()
     {
         String result21 = IntegerToRoman.convert(21);
-        String result40 = IntegerToRoman.convert(15);
+        String result40 = IntegerToRoman.convert(40);
         String result49 = IntegerToRoman.convert(49);
         String result50 = IntegerToRoman.convert(50);
 
