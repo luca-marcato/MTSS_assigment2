@@ -45,6 +45,14 @@ public class RomanPrinter {
                 value[4] += "| |____  ";
                 value[5] += "|______| ";
                 break;
+            case 'C':
+                value[0] += "  _____  ";
+                value[1] += " / ____| ";
+                value[2] += "| |      ";
+                value[3] += "| |      ";
+                value[4] += "| |____  ";
+                value[5] += " \\_____| ";
+                break;
         }
         return value[0] + "\n" + value[1] + "\n" + value[2] + "\n" + value[3] + "\n" + value[4] + "\n" + value[5];
     }
