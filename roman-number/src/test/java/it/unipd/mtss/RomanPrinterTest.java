@@ -63,7 +63,25 @@ public class RomanPrinterTest {
                             "  > <   \n" +
                             " / . \\  \n" +
                             "/_/ \\_\\ ");
+        }
+    }
 
+    @Test
+    public void carattere_L() {
+        try (
+                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+            utilities.when(() -> IntegerToRoman.convert(50))
+                    .thenReturn("L");
+
+            String result = RomanPrinter.print(50);
+
+            assertEquals(result,
+                    " _       \n" +
+                            "| |      \n" +
+                            "| |      \n" +
+                            "| |      \n" +
+                            "| |____  \n" +
+                            "|______| ");
         }
     }
 }
