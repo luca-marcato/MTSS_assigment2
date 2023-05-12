@@ -16,4 +16,14 @@ public class IntegerToRomanTest {
         assertEquals(result1, "I");
         assertEquals(result3, "III");
     }
+
+    @Test
+    public void primiSeiNumeri()
+    {
+        String result4 = IntegerToRoman.convert(4);
+        String result6 = IntegerToRoman.convert(6);
+
+        assertEquals(result4, "IV");
+        assertEquals(result6, "VI");
+    }    
 }
