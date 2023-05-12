@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire1716226389686844220\surefirebooter18285894215496460758.jar C:\Users\marca\AppData\Local\Temp\surefire1716226389686844220 2023-05-12T10-12-32_092-jvmRun1 surefire11237658401421665906tmp surefire_016079523305979471238tmp"/>
+    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire10100775153520445902\surefirebooter8711441089867382842.jar C:\Users\marca\AppData\Local\Temp\surefire10100775153520445902 2023-05-12T10-13-04_911-jvmRun1 surefire6060323999589776473tmp surefire_012574186363333269893tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\test-classes;C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\classes;C:\Users\marca\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\marca\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire1716226389686844220\surefirebooter18285894215496460758.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire10100775153520445902\surefirebooter8711441089867382842.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="it.unipd.mtss.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="it.unipd.mtss.AppTest" time="0.001"/>
 </testsuite>
