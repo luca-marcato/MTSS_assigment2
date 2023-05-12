@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire3180009418739611826\surefirebooter14395158515637858087.jar C:\Users\marca\AppData\Local\Temp\surefire3180009418739611826 2023-05-12T10-25-57_099-jvmRun1 surefire11377401192364280719tmp surefire_03883589821805918267tmp"/>
+    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire7899327783185014518\surefirebooter11346629144626143914.jar C:\Users\marca\AppData\Local\Temp\surefire7899327783185014518 2023-05-12T10-27-01_465-jvmRun1 surefire2971338702263616800tmp surefire_05989907578527731792tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\test-classes;C:\Users\marca\AppData\Local\PersonalData\Università\3° Anno\MTSS\GitHub\MTSS_assigment2\roman-number\target\classes;C:\Users\marca\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\marca\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire3180009418739611826\surefirebooter14395158515637858087.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire7899327783185014518\surefirebooter11346629144626143914.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>
@@ -60,7 +60,7 @@
   <testcase name="primiDieciNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiMilleNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiCinquecentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="lowerOutOfBounds" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="lowerOutOfBounds" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="primiSeiNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="primiTreNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="upperOutOfBounds" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
