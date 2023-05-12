@@ -66,4 +66,18 @@ public class IntegerToRomanTest {
         assertEquals(result49, "XLIX");
         assertEquals(result50, "L");
     }
+
+    @Test
+    public void primiCentoNumeri()
+    {
+        String result51 = IntegerToRoman.convert(51);
+        String result90 = IntegerToRoman.convert(90);
+        String result99 = IntegerToRoman.convert(99);
+        String result100 = IntegerToRoman.convert(100);
+
+        assertEquals(result51, "LI");
+        assertEquals(result90, "XC");
+        assertEquals(result99, "XCIX");
+        assertEquals(result100, "C");
+    }
 }
