@@ -108,10 +108,10 @@ public class RomanPrinterTest {
     public void carattere_D() {
         try (
                 MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
-            utilities.when(() -> IntegerToRoman.convert(100))
-                    .thenReturn("C");
+            utilities.when(() -> IntegerToRoman.convert(500))
+                    .thenReturn("D");
 
-            String result = RomanPrinter.print(100);
+            String result = RomanPrinter.print(500);
 
             assertEquals(result,
                     " _____   \n" +
