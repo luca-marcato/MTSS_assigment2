@@ -8,6 +8,14 @@ package it.unipd.mtss;
 public class IntegerToRoman {
   public static String convert(int number){
     String result = "";
+    while (number >= 10) {
+        result += "X";
+        number -= 10;
+    }
+    while (number >= 9) {
+        result += "IX";
+        number -= 9;
+    }
     if (number >= 5) {
         result += "V";
         number -= 5;
