@@ -25,5 +25,17 @@ public class IntegerToRomanTest {
 
         assertEquals(result4, "IV");
         assertEquals(result6, "VI");
-    }    
+    }
+
+    @Test
+    public void primiDieciNumeri()
+    {
+        String result7 = IntegerToRoman.convert(7);
+        String result9 = IntegerToRoman.convert(9);
+        String result10 = IntegerToRoman.convert(10);
+
+        assertEquals(result7, "VII");
+        assertEquals(result9, "IX");
+        assertEquals(result10, "X");
+    }
 }
