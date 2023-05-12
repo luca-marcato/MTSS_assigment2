@@ -38,4 +38,18 @@ public class IntegerToRomanTest {
         assertEquals(result9, "IX");
         assertEquals(result10, "X");
     }
+
+    @Test
+    public void primiVentiNumeri()
+    {
+        String result11 = IntegerToRoman.convert(11);
+        String result15 = IntegerToRoman.convert(15);
+        String result19 = IntegerToRoman.convert(19);
+        String result20 = IntegerToRoman.convert(20);
+
+        assertEquals(result11, "XI");
+        assertEquals(result15, "XV");
+        assertEquals(result19, "XIX");
+        assertEquals(result20, "XX");
+    }
 }
