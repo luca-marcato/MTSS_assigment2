@@ -12,7 +12,7 @@ public class IntegerToRoman {
         result += "X";
         number -= 10;
     }
-    while (number >= 9) {
+    if (number >= 9) {
         result += "IX";
         number -= 9;
     }
