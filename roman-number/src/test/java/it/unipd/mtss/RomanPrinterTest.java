@@ -122,4 +122,23 @@ public class RomanPrinterTest {
                             "|_____/  ");
         }
     }
+
+    @Test
+    public void carattere_M() {
+        try (
+                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+            utilities.when(() -> IntegerToRoman.convert(1000))
+                    .thenReturn("M");
+
+            String result = RomanPrinter.print(1000);
+
+            assertEquals(result,
+                    " __  __  \n" +
+                            "|  \\/  | \n" +
+                            "| \\  / | \n" +
+                            "| |\\/| | \n" +
+                            "| |  | | \n" +
+                            "|_|  |_| ");
+        }
+    }
 }
