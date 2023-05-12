@@ -108,4 +108,10 @@ public class IntegerToRomanTest {
         assertEquals(result999, "CMXCIX");
         assertEquals(result1000, "M");
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void lowerOutOfBounds()
+    {
+        IntegerToRoman.convert(0);
+    }
 }
