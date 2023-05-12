@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.001" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.794" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -57,14 +57,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="primiCentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiDieciNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiMilleNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiCinquecentoNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="lowerOutOfBounds" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiSeiNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiTreNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="upperOutOfBounds" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiCinquantaNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="primiVentiNumeri" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="carattere_I" classname="it.unipd.mtss.RomanPrinterTest" time="0.793">
+    <failure message="expected:&lt;null&gt; but was:&lt; _____  &#10;|_   _| &#10;  | |   &#10;  | |   &#10; _| |_  &#10;|_____| &#10;&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+expected:<null> but was:< _____  
+|_   _| 
+  | |   
+  | |   
+ _| |_  
+|_____| 
+>
+	at it.unipd.mtss.RomanPrinterTest.carattere_I(RomanPrinterTest.java:19)
+]]></failure>
+  </testcase>
 </testsuite>
