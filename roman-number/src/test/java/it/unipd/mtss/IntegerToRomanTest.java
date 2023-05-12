@@ -94,4 +94,18 @@ public class IntegerToRomanTest {
         assertEquals(result499, "CDXCIX");
         assertEquals(result500, "D");
     }
+
+    @Test
+    public void primiMilleNumeri()
+    {
+        String result501 = IntegerToRoman.convert(501);
+        String result900 = IntegerToRoman.convert(900);
+        String result999 = IntegerToRoman.convert(999);
+        String result1000 = IntegerToRoman.convert(1000);
+
+        assertEquals(result501, "DI");
+        assertEquals(result900, "CM");
+        assertEquals(result999, "CMCDXCIX");
+        assertEquals(result1000, "M");
+    }
 }
