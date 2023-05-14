@@ -120,4 +120,30 @@ public class RomanPrinterTest {
                         assertEquals(result, expected);
                 }
         }
+
+        @Test
+        public void caratteri_CMXCIX() {
+                try (
+                                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+                        utilities.when(() -> IntegerToRoman.convert(999))
+                                        .thenReturn("CMXCIX");
+
+                        String result = RomanPrinter.print(999);
+                        String expected = "";
+
+                        for (int i = 0; i < RomanPrinter.charI.split("\n").length; i++) {
+                                expected += RomanPrinter.charC.split("\n")[i];
+                                expected += RomanPrinter.charM.split("\n")[i];
+                                expected += RomanPrinter.charX.split("\n")[i];
+                                expected += RomanPrinter.charC.split("\n")[i];
+                                expected += RomanPrinter.charI.split("\n")[i];
+                                expected += RomanPrinter.charX.split("\n")[i];
+                                if (i != RomanPrinter.charI.split("\n").length - 1) {
+                                        expected += "\n";
+                                }
+                        }
+                        assertEquals(result, expected);
+                }
+        }
+
 }
