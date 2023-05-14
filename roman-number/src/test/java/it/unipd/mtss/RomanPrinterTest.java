@@ -146,4 +146,14 @@ public class RomanPrinterTest {
                 }
         }
 
+        @Test(expected = IllegalArgumentException.class)
+        public void valoreIllegale() {
+                try (
+                                MockedStatic<IntegerToRoman> utilities = Mockito.mockStatic(IntegerToRoman.class)) {
+                        utilities.when(() -> IntegerToRoman.convert(-1))
+                                        .thenThrow(new IllegalArgumentException("is not valid"));
+
+                        RomanPrinter.print(-1);
+                }
+        }
 }
